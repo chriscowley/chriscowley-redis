@@ -5,13 +5,13 @@
 #
 class redis::params {
   case $::osfamily {
-    'Debian': {
-      $package_name = 'redis'
-      $service_name = 'redis'
-    }
+    #    'Debian': {
+    #  $package_name = 'redis'
+    #  $service_name = 'redis'
+    #}
     'RedHat', 'Amazon': {
       $package_name = 'redis'
-      $service_name = 'redis'
+      $service_name = 'redis-server'
     }
     default: {
       fail("${::operatingsystem} not supported")
