@@ -11,7 +11,7 @@ class redis::params {
     #}
     'RedHat', 'Amazon': {
       $package_name = 'redis'
-      $service_name = 'redis-server'
+      $service_name = 'redis'
     }
     default: {
       fail("${::operatingsystem} not supported")
