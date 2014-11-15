@@ -1,0 +1,10 @@
+name          'chriscowley-redis'
+version       '0.1.0'
+source        'https://github.com/chriscowley/chriscowley-redis.git'
+author        'chriscowley'
+license       'Apache 2.0'
+summary       'Install Redis key-value store'
+description   'Install Redis key-value store'
+project_page  'https://github.com/chriscowley/chriscowley-redis'
+
+dependency 'puppetlabs/stdlib'

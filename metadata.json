@@ -1,0 +1,16 @@
+{
+  "name": "chriscowley-redis",
+  "version": "0.1.0",
+  "author": "chriscowley",
+  "summary": "Install Redis key-value store",
+  "license": "Apache 2.0",
+  "source": "https://github.com/chriscowley/chriscowley-redis.git",
+  "project_page": "https://github.com/chriscowley/chriscowley-redis",
+  "issues_url": "https://github.com/chriscowley/chriscowley-redis/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ]
+}
